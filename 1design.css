@@ -1,0 +1,153 @@
+body{
+    
+   
+    background-image: url("blackys.png");
+
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#menu{
+
+    text-align:center;
+
+}
+
+
+#title1, #title2{
+
+    color: #333b47;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h6{
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menumain{
+    position:fixed;
+    margin-top: -100px;
+    width: 100%;
+
+    z-index: 1;
+}
+
+#mainbox1{
+    display: flex;
+    flex: 33.33%;
+    padding: 5px;
+}
+
+#mainbox2{
+    display: flex;
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.parallax1{
+
+    background-image: url("cloudys.png");
+
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+
+    background-image: url("cloudys.png");
+
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*SLIDESHOW*/
+
+
+#sec3{
+
+    display:flex;
+}
+
+
+#textani {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+  }
+  
+  @keyframes example {
+    0%   {left:0px; bottom:0px;}
+    25%  {left:200px; bottom:0px;}
+    50%  {left:-200px; bottom:200px;}
+    50%  {left:-200px; bottom:50px;}
+    75%  {right: 200px; bottom:200px;}
+    100% {left:0px; bottom:0px;}
+  }
+
+
+
+
+
+
+
+
+/*FOR THOSE SLIDING EMOJIS IN SEC4*/
+
+#div11, #div12, #div13, #div14,#div15   {
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 20s infinite;
+  }
+  
+  #div11 {animation-timing-function: linear;}
+  #div12 {animation-timing-function: ease;}
+  #div13 {animation-timing-function: ease-in;}
+  #div14 {animation-timing-function: ease-out;}
+  #div15 {animation-timing-function: ease-in-out;}
+  
+  @keyframes mymove {
+    0% {left: 0px;}
+    50% {left: 1300px;}
+    100% {left: 0px;}
+    
+  }
+
+
+
+
+
+
+
+
+
